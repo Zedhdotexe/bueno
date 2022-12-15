@@ -1,0 +1,50 @@
+/* landing */
+.landing {
+    height: calc(100vh - 72px);
+    position: relative;
+}
+
+.landing h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.landing h5 {
+    font-size: 1.2rem;
+}
+
+.landing button {
+    width: fit-content;
+}
+
+.landing img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* features */
+
+@media (max-width: 767px) {
+    .features{
+        text-align: center;
+    }
+
+    .features .title {
+        margin-bottom: 50px;
+    }
+}
+
+/* Join */
+@media (max-width: 767px) {
+    .join {
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 767px) {
+    .join {
+        border-radius: 100px;
+    }
+}
